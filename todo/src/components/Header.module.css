@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.inputTask{
+    width: 400px;
+    height: 50px;
+    background-color: #F1F1F1;
+    margin-right: 35px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.btn{
+    width: 106px;
+    height: 50px;
+    background-color: #A672FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
