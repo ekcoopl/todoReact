@@ -1,11 +1,15 @@
 import React from "react";
+import styles from "./Main.module.css";
 
 const Main = () => {
   return (
-    <div>
-      <input type="text" />
-      <input type="text" />
-      <input type="text" />
+    <div className={styles.main}>
+      <div>
+        <input type="text" className={styles.inputTask} />
+      </div>
+      <div>
+        <input type="text" className={styles.inputTask} />
+      </div>
     </div>
   );
 };
